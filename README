@@ -1,0 +1,4 @@
+This is an home experiment project.
+first run ./make.sh in pwd to make the client
+To test, start server first
+then start the client
