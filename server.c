@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <errno.h>
-#include "rfs.h"
+#include "rfs_rpc.h"
 
 rfs_fopen_out_t *
 rfs_fopen_1_svc(rfs_fopen_in_t *input, struct svc_req *req)
