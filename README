@@ -2,3 +2,10 @@ This is an home experiment project.
 first run ./make.sh in pwd to make the client
 To test, start server first
 then start the client
+
+on recent Linux you may get error when starting server!
+>>>>
+Cannot register service: RPC: Authentication error; why = Client credential too weak
+unable to register (RPC_RFS_PROGRAM, RPC_RFS_VER, udp).
+<<<<
+you must start rpcbind with -i option, on Debian, please refer to /etc/init.d/rpcbind
